@@ -1,0 +1,33 @@
+body{
+    font-family: fantasy;
+    width: 850px;
+    background-color: bisque;
+}
+button{ 
+    background-color: rgb(216, 123, 89);
+    height: 40px;
+    font-family: fantasy;
+    margin: 5px;
+}
+.buttons{
+    border: 3px 
+}
+label{
+    text-transform: uppercase;
+}
+.aaa{
+    float: left;
+    margin:30px;
+    height: 50px;
+}
+.des{
+    width: 700px;
+    position: relative;
+    float: left;
+    margin:30px;
+}
+.bbb{
+    float: left;
+    margin:30px;
+    height: 50px;
+}
