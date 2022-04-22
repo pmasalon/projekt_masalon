@@ -1,4 +1,4 @@
-# API DOCUMENTATION
+# aztro API DOCUMENTATION
 
 ## Required Parameters
 
