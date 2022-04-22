@@ -1,3 +1,32 @@
+#API DOCUMENTATION
+
+##Required Parameters
+
+### sign STRING
+
+List of possible values of \"sign\":
+
+Aries, 
+Taurus, 
+Gemini, 
+Cancer, 
+Leo, 
+Virgo, 
+Libra, 
+Scorpio, 
+Sagittarius, 
+Capricorn, 
+Aquarius, 
+Pisces
+
+### day STRING
+
+Possible values for \"day\":
+
+today, 
+yesterday, 
+tomorrow
+
 ## CODE
 const axios = require("axios");
 
