@@ -1,6 +1,6 @@
-#API DOCUMENTATION
+# API DOCUMENTATION
 
-##Required Parameters
+## Required Parameters
 
 ### sign STRING
 
