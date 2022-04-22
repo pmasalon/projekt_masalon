@@ -1,3 +1,34 @@
+## CODE
+const axios = require("axios");
+
+const options = {
+  method: 'POST',
+  url: 'https://sameer-kumar-aztro-v1.p.rapidapi.com/',
+  params: {sign: 'aquarius', day: 'today'},
+  headers: {
+    'X-RapidAPI-Host': 'sameer-kumar-aztro-v1.p.rapidapi.com',
+    'X-RapidAPI-Key': 'f9c756fe23mshc3ad44330d8b930p16eb80jsn7ed9e637040b'
+  }
+};
+
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});
+
+## Example Responses
+{8 items
+"color":"Blue"
+"compatibility":"Taurus"
+"current_date":"September 24, 2020"
+"date_range":"Jan 20 - Feb 18"
+"description":"Your busy lifestyle has been fun, but today it's time to slow down and just relax."
+"lucky_number":"93"
+"lucky_time":"6pm"
+"mood":"Relieved"
+}
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
